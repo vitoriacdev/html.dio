@@ -1,22 +1,33 @@
 # Basic HTML Guide
 
-Project developed for the DIO (Digital Innovation One) Project Challenge, with the goal of building a simple website using basic HTML tags learned during the practical classes.
+Overview
 
-## 🎯 About the Challenge
+This project is a submission for a DIO (Digital Innovation One) project challenge focused on fundamental HTML markup. The objective was to build a single web page that demonstrates a defined set of HTML tags covered during the course, along with a small number of additional tags researched independently.
 
-The idea of this project challenge is to build a website using a basic structure, applying tags learned in class:
+The page includes a clickable table of contents that links to each section, and a "Back to Index" link at the end of every section, allowing the reader to navigate the document without scrolling manually.
 
-- Tags covered in class: `<h1>` to `<h6>`, `<p>`, `<mark>`, `<small>`, `<i>`, `<u>`, `<strong>`, `<ol>`, `<ul>`, `<li>`, `<a>`, `<hr>`, `<sub>`, `<sup>`, `<blockquote>`
-- New suggested tags (researched independently): `<font>`, `<del>`, `<abbr>`
+## Objective
 
-## 🧩 Features
+The challenge required building a page using the following tags, covered in class:
 
-- A clickable **index** that lets you jump straight to any section of the page
-- A **"Back to Index"** button at the end of every section
-- **Smooth scrolling** between sections (`scroll-behavior: smooth`), no JavaScript needed
-- Simple, clean styling with plain CSS
+<h1> through <h6>, <p>, <mark>, <small>, <i>, <u>, <strong>, <ol>, <ul>, <li>, <a>, <hr>, <sub>, <sup>, <blockquote>
 
-## 🏷️ Tags Used
+In addition, three tags were researched independently, with their behavior and purpose documented in the page itself:
+
+<font>, <del>, <abbr>
+
+## Structure
+
+Each tag is presented in its own section, consisting of:
+
+A heading identifying the tag
+A short explanation of what the tag does and when it is typically used
+A working example of the tag applied to real content
+A link back to the index
+
+The index at the top of the page links to each of these sections using anchor links (href="#section-id"), and each section heading has a matching id attribute that serves as the link target. Navigation between sections uses scroll-behavior: smooth in CSS, so the page scrolls smoothly rather than jumping instantly. No JavaScript is used for this behavior.
+
+## Tags Reference
 
 | Tag | Purpose |
 |---|---|
@@ -39,24 +50,18 @@ The idea of this project challenge is to build a website using a basic structure
 | `<abbr>` | Abbreviation with tooltip (`title` attribute) |
 | `<img>` | Image |
 
-## 📁 Project Structure
+## File Structure
 
-```
-📦 basic-html-guide
- ┣ 📜 guia-basico-html.html   # Main page
- ┗ 📜 README.md               # This file
-```
+basic-html-guide/
+├── guia-basico-html.html
+└── README.md
 
-## ▶️ How to Run
+## Notes 
 
-1. Download the `guia-basico-html.html` file.
-2. Open it in any browser (double-click, or right-click → Open with...).
-3. Click any item in the Index to jump to that section, and use the **Back to Index** button to return.
+The <img> example references logo.png as a placeholder. To display an image correctly, replace the src attribute with a valid path or URL to an actual image file.
 
-## 🖼️ Note on the Image
+The <font> tag is included for educational purposes to illustrate a deprecated approach to styling. In modern development, styling should be handled through CSS rather than presentational HTML attributes.
 
-The `<img>` example points to `logo.png`. Replace `src="logo.png"` with the path (or URL) of your own image so it displays correctly.
-
-## 👩‍💻 Author
+##  Author
 
 Project built as part of the DIO Web Development learning track.
