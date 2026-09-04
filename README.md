@@ -50,12 +50,6 @@ The index at the top of the page links to each of these sections using anchor li
 | `<abbr>` | Abbreviation with tooltip (`title` attribute) |
 | `<img>` | Image |
 
-## File Structure
-
-basic-html-guide/
-├── guia-basico-html.html
-└── README.md
-
 ## Notes 
 
 The <img> example references logo.png as a placeholder. To display an image correctly, replace the src attribute with a valid path or URL to an actual image file.
