@@ -10,11 +10,11 @@ The page includes a clickable table of contents that links to each section, and 
 
 The challenge required building a page using the following tags, covered in class:
 
-<h1> through <h6>, <p>, <mark>, <small>, <i>, <u>, <strong>, <ol>, <ul>, <li>, <a>, <hr>, <sub>, <sup>, <blockquote>
+h1 through h6, p, mark, small, i, u, strong, ol, ul, li, a, hr, sub, sup, blockquote
 
 In addition, three tags were researched independently, with their behavior and purpose documented in the page itself:
 
-<font>, <del>, <abbr>
+font, del, abbr
 
 ## Structure
 
